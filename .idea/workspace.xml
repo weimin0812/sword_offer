@@ -7,17 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2338773-de25-426e-a059-d71db5d01d7f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question01/Find.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question02/ReplaceSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question03/PrintListFromTailToHead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question04/ReConstructBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question05/UseTwoStacksToImplementQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question06/MinNumberInRotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question07/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question08/JumpFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question09/JumpFloorTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question10/RectCover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question11/NumberOf1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question12/Power.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +28,17 @@
     <favorites_list name="sword_offer" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Power.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/question12/Power.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,6 +65,13 @@
         <option value="$PROJECT_DIR$/src/question04/ReConstructBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/question05/UseTwoStacksToImplementAQueue.java" />
         <option value="$PROJECT_DIR$/src/question05/UseTwoStacksToImplementQueue.java" />
+        <option value="$PROJECT_DIR$/src/question06/MinNumberInRotateArray.java" />
+        <option value="$PROJECT_DIR$/src/question07/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/question09/JumpFloorII.java" />
+        <option value="$PROJECT_DIR$/src/question08/JumpFloor.java" />
+        <option value="$PROJECT_DIR$/src/question10/RectCover.java" />
+        <option value="$PROJECT_DIR$/src/question11/NumberOf1.java" />
+        <option value="$PROJECT_DIR$/src/question12/Power.java" />
       </list>
     </option>
   </component>
@@ -185,15 +199,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529052074268</updated>
-      <workItem from="1529052076026" duration="4697000" />
+      <workItem from="1529052076026" duration="7261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4697000" />
+    <option name="totallyTimeSpent" value="7261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -208,8 +223,8 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72" visible="true" weight="0.4320458" />
-      <window_info anchor="bottom" id="Inspection Results" sideWeight="0.77682406" weight="0.32969698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9127273" visible="true" weight="0.19027181" />
+      <window_info anchor="bottom" id="Inspection Results" sideWeight="0.77682406" weight="0.46060607" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.502451" side_tool="true" weight="0.24177396" />
@@ -217,7 +232,7 @@
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" sideWeight="0.28" side_tool="true" visible="true" weight="0.4320458" />
+      <window_info id="Favorites" sideWeight="0.087272726" side_tool="true" visible="true" weight="0.19027181" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -354,6 +369,55 @@
             <element signature="e#293#294#0" expanded="true" />
             <element signature="e#326#327#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question06/MinNumberInRotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question07/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question11/NumberOf1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question10/RectCover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question09/JumpFloorTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question08/JumpFloor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question12/Power.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
