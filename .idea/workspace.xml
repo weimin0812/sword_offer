@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisUIOptions">
-    <option name="SPLITTER_PROPORTION" value="0.39820358" />
+    <option name="SPLITTER_PROPORTION" value="0.27040315" />
     <option name="GROUP_BY_SEVERITY" value="true" />
     <option name="ANALYZE_TEST_SOURCES" value="false" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2338773-de25-426e-a059-d71db5d01d7f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/question31/NumberOfOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question32/PrintMinNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question33/UglyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question34/FirstNotRepeatingChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question35/InversePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question36/FindFirstCommonNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question37/GetNumberOfK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question38/TreeDepth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/question35/InversePairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/question35/InversePairs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,20 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FirstNotRepeatingChar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/question34/FirstNotRepeatingChar.java">
+      <file leaf-file-name="TreeDepth.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/question38/TreeDepth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InversePairs.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/question35/InversePairs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="270">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -103,6 +93,9 @@
         <option value="$PROJECT_DIR$/src/question33/UglyNumber.java" />
         <option value="$PROJECT_DIR$/src/question34/FirstNotRepeatingChar.java" />
         <option value="$PROJECT_DIR$/src/question35/InversePairs.java" />
+        <option value="$PROJECT_DIR$/src/question36/FindFirstCommonNode.java" />
+        <option value="$PROJECT_DIR$/src/question37/GetNumberOfK.java" />
+        <option value="$PROJECT_DIR$/src/question38/TreeDepth.java" />
       </list>
     </option>
   </component>
@@ -140,15 +133,63 @@
               <item name="sword_offer" type="b2602c69:ProjectViewProjectNode" />
               <item name="sword_offer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="question30" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword_offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword_offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="question31" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword_offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword_offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="question32" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword_offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword_offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="question33" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword_offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword_offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="question34" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword_offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword_offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="question35" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword_offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword_offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="question36" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword_offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword_offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="question37" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword_offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword_offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="question38" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstNotRepeatingChar">
+  <component name="RunManager" selected="Application.InversePairs">
     <configuration name="FirstNotRepeatingChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="question34.FirstNotRepeatingChar" />
       <module name="sword_offer" />
@@ -184,12 +225,15 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="InversePairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question35.InversePairs" />
       <module name="sword_offer" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="question35.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="NumberOfOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="question31.NumberOfOne" />
@@ -237,14 +281,15 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.VerifyPostOrderSquence" />
       <item itemvalue="Application.Permutation" />
       <item itemvalue="Application.NumberOfOne" />
       <item itemvalue="Application.FirstNotRepeatingChar" />
+      <item itemvalue="Application.InversePairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InversePairs" />
         <item itemvalue="Application.FirstNotRepeatingChar" />
         <item itemvalue="Application.NumberOfOne" />
         <item itemvalue="Application.Permutation" />
@@ -265,12 +310,14 @@
       <workItem from="1529052076026" duration="7370000" />
       <workItem from="1529115430856" duration="10533000" />
       <workItem from="1529137828877" duration="1110000" />
-      <workItem from="1529223968255" duration="3466000" />
+      <workItem from="1529223968255" duration="3645000" />
+      <workItem from="1529287666961" duration="7000" />
+      <workItem from="1529421129509" duration="2529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22479000" />
+    <option name="totallyTimeSpent" value="25194000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -291,24 +338,24 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5035765" side_tool="true" visible="true" weight="0.055757575" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.22818312" side_tool="true" visible="true" weight="0.18181819" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.006060606" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.5872675" weight="0.19757576" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.7054545" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49713877" weight="0.20969696" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79204106" visible="true" weight="0.34763947" />
-      <window_info anchor="bottom" id="Inspection Results" order="7" sideWeight="0.7746781" weight="0.5163636" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8103704" visible="true" weight="0.26108727" />
+      <window_info anchor="bottom" id="Inspection Results" order="7" sideWeight="0.7718169" weight="0.53939396" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.37974682" side_tool="true" weight="0.20028612" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49642345" visible="true" weight="0.055757575" />
-      <window_info id="Favorites" order="2" sideWeight="0.20795892" side_tool="true" visible="true" weight="0.34763947" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49570817" weight="0.47030303" />
+      <window_info id="Favorites" order="2" sideWeight="0.18962963" side_tool="true" visible="true" weight="0.26108727" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -362,6 +409,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/question35/InversePairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question34/FirstNotRepeatingChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question35/InversePairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/question27/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -706,14 +774,35 @@
     <entry file="file://$PROJECT_DIR$/src/question34/FirstNotRepeatingChar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/question35/InversePairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="413">
+          <caret line="73" column="1" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question36/FindFirstCommonNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question37/GetNumberOfK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question38/TreeDepth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
