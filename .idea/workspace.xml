@@ -7,10 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2338773-de25-426e-a059-d71db5d01d7f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/question39/IsBalanced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question40/FindNumsAppearOnce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question41/FindContinuousSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question42/FindNumbersWithSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question43/LeftRotateString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question44/ReverseSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question45/IsContinuous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question46/LastRemaining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question47/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,23 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindContinuousSequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/question41/FindContinuousSequence.java">
+      <file leaf-file-name="Sum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/question47/Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-              <folding>
-                <element signature="e#291#311#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindNumbersWithSum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/question42/FindNumbersWithSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="195">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -63,9 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/README.md" />
-        <option value="$PROJECT_DIR$/src/question01/Find.java" />
-        <option value="$PROJECT_DIR$/src/question02/ReplaceSpace.java" />
         <option value="$PROJECT_DIR$/src/util/ListNode.java" />
         <option value="$PROJECT_DIR$/src/question3/PrintListFromTailToHead.java" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -112,6 +98,11 @@
         <option value="$PROJECT_DIR$/src/question40/FindNumsAppearOnce.java" />
         <option value="$PROJECT_DIR$/src/question41/FindContinuousSequence.java" />
         <option value="$PROJECT_DIR$/src/question42/FindNumbersWithSum.java" />
+        <option value="$PROJECT_DIR$/src/question43/LeftRotateString.java" />
+        <option value="$PROJECT_DIR$/src/question44/ReverseSentence.java" />
+        <option value="$PROJECT_DIR$/src/question45/IsContinuous.java" />
+        <option value="$PROJECT_DIR$/src/question46/LastRemaining.java" />
+        <option value="$PROJECT_DIR$/src/question47/Sum.java" />
       </list>
     </option>
   </component>
@@ -133,6 +124,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,14 +142,12 @@
               <item name="sword_offer" type="b2602c69:ProjectViewProjectNode" />
               <item name="sword_offer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="question42" type="462c0819:PsiDirectoryNode" />
+              <item name="question47" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -182,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InversePairs">
+  <component name="RunManager" selected="Application.Sum">
     <configuration name="FirstNotRepeatingChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="question34.FirstNotRepeatingChar" />
       <module name="sword_offer" />
@@ -223,12 +214,12 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="VerifyPostOrderSquence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question23.VerifyPostOrderSquence" />
+    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question47.Sum" />
       <module name="sword_offer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="question23.*" />
+          <option name="PATTERN" value="question47.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,19 +240,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.VerifyPostOrderSquence" />
       <item itemvalue="Application.Permutation" />
       <item itemvalue="Application.NumberOfOne" />
       <item itemvalue="Application.FirstNotRepeatingChar" />
       <item itemvalue="Application.InversePairs" />
+      <item itemvalue="Application.Sum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sum" />
         <item itemvalue="Application.InversePairs" />
         <item itemvalue="Application.FirstNotRepeatingChar" />
         <item itemvalue="Application.NumberOfOne" />
         <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.VerifyPostOrderSquence" />
       </list>
     </recent_temporary>
   </component>
@@ -282,12 +273,14 @@
       <workItem from="1529287666961" duration="7000" />
       <workItem from="1529421129509" duration="2664000" />
       <workItem from="1529476113333" duration="2000" />
-      <workItem from="1529507761687" duration="1864000" />
+      <workItem from="1529507761687" duration="2112000" />
+      <workItem from="1529565659729" duration="2000" />
+      <workItem from="1529679762587" duration="3106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27195000" />
+    <option name="totallyTimeSpent" value="30551000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -303,34 +296,34 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.57081544" weight="0.4812121" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.5694444" weight="0.24174528" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49928468" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.22818312" side_tool="true" visible="true" weight="0.18181819" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5048611" side_tool="true" visible="true" weight="0.4693396" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.006060606" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.5872675" weight="0.19757576" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49713877" weight="0.20969696" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49642345" weight="0.006060606" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.5858369" weight="0.19757576" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49427754" weight="0.4" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8074074" visible="true" weight="0.19384836" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8" visible="true" weight="0.15833333" />
+      <window_info anchor="bottom" id="Inspection Results" order="7" sideWeight="0.7703863" weight="0.0630303" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.37974682" side_tool="true" weight="0.20028612" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" sideWeight="0.19859813" side_tool="true" weight="0.16309012" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49570817" weight="0.47030303" />
-      <window_info id="Favorites" order="2" sideWeight="0.19259259" side_tool="true" visible="true" weight="0.19384836" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49513888" visible="true" weight="0.4693396" />
+      <window_info id="Favorites" order="2" sideWeight="0.2" side_tool="true" visible="true" weight="0.15833333" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection Results" order="7" sideWeight="0.7718169" weight="0.53939396" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,42 +368,10 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/question27/Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/question12/Power.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -719,20 +680,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/question41/FindContinuousSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="e#291#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/question42/FindNumbersWithSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question41/FindContinuousSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question43/LeftRotateString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question44/ReverseSentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question45/IsContinuous.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question46/LastRemaining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="2" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question47/Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
         </state>
       </provider>
     </entry>
