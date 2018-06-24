@@ -7,12 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2338773-de25-426e-a059-d71db5d01d7f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/question48/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question49/StrToInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question50/Duplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question51/Multiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/question52/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question53/IsNumeric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/question52/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/question52/Match.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +27,8 @@
       <file leaf-file-name="Match.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/question52/Match.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="462">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -52,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/question04/ReConstructBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/question05/UseTwoStacksToImplementAQueue.java" />
         <option value="$PROJECT_DIR$/src/question05/UseTwoStacksToImplementQueue.java" />
         <option value="$PROJECT_DIR$/src/question06/MinNumberInRotateArray.java" />
@@ -102,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/question49/StrToInt.java" />
         <option value="$PROJECT_DIR$/src/question50/Duplicate.java" />
         <option value="$PROJECT_DIR$/src/question51/Multiply.java" />
+        <option value="$PROJECT_DIR$/src/question53/IsNumeric.java" />
         <option value="$PROJECT_DIR$/src/question52/Match.java" />
       </list>
     </option>
@@ -124,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -138,17 +134,12 @@
               <item name="sword_offer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sword_offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sword_offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="question52" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,12 +267,13 @@
       <workItem from="1529507761687" duration="2112000" />
       <workItem from="1529565659729" duration="2000" />
       <workItem from="1529679762587" duration="3286000" />
-      <workItem from="1529830266885" duration="2593000" />
+      <workItem from="1529830266885" duration="2713000" />
+      <workItem from="1529849621907" duration="2888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33324000" />
+    <option name="totallyTimeSpent" value="36332000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -294,15 +286,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.5694444" weight="0.24174528" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49928468" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50625" side_tool="true" visible="true" weight="0.3207547" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50625" side_tool="true" visible="true" weight="0.22051887" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49583334" weight="0.0011792453" />
@@ -310,14 +300,14 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49427754" weight="0.4" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7986111" visible="true" weight="0.23194444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.78668684" visible="true" weight="0.23194444" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.19859813" side_tool="true" weight="0.16309012" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49375" visible="true" weight="0.3207547" />
-      <window_info id="Favorites" order="2" sideWeight="0.2013889" side_tool="true" visible="true" weight="0.23194444" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49375" weight="0.6002358" />
+      <window_info id="Favorites" order="2" sideWeight="0.21331316" side_tool="true" visible="true" weight="0.23194444" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="7" sideWeight="0.7703863" weight="0.0630303" />
@@ -325,6 +315,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49928468" weight="0.32969698" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,13 +364,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/question06/MinNumberInRotateArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/question07/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -726,10 +710,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/question53/IsNumeric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/question52/Match.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="462">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
