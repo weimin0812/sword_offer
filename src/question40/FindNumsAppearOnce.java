@@ -7,8 +7,8 @@ package question40;
  */
 public class FindNumsAppearOnce {
 
-    public void findNumsAppearOnce(int[] array, int num1[], int num2[]) {
-        if (array == null || array.length <= 1 || num1 == null || num1.length != 1 || num2 == null || num2.length != 1) {
+    public void findNumsAppearOnce(int[] array, int[] firstResult, int[] secondResult) {
+        if (array == null || array.length <= 1 || firstResult == null || firstResult.length != 1 || secondResult == null || secondResult.length != 1) {
             return;
         }
 
@@ -24,9 +24,9 @@ public class FindNumsAppearOnce {
 
         for (int num : array) {
             if ((num & (1 << count)) == 0) {
-                num1[0] ^= num;
+                firstResult[0] ^= num;
             } else {
-                num2[0] ^= num;
+                secondResult[0] ^= num;
             }
         }
 
