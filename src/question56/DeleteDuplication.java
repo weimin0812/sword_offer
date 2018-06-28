@@ -10,25 +10,21 @@ import util.ListNode;
 public class DeleteDuplication {
     public ListNode deleteDuplication(ListNode pHead) {
         ListNode current = pHead;
-
-        if (current == null || current.next == null){
+        if (current == null || current.next == null) {
             return current;
         }
 
         if (current.val == current.next.val) {
-            ListNode notSame = current.next;
-            while (notSame != null && notSame.val != current.val) {
-                notSame = notSame.next;
+            ListNode same = current.next.next;
+            while (same != null && same.val == current.val) {
+                same = same.next;
             }
-            return deleteDuplication(notSame);
+
+            return deleteDuplication(same);
+
         } else {
             current.next = deleteDuplication(current.next);
             return current;
         }
-
-
-
-
-
     }
 }
